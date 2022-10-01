@@ -1,0 +1,157 @@
+.app__home {
+    padding: 6rem 1rem 2rem;
+    height: 100%;
+    .app__home-info {
+        display: flex;
+        justify-content: space-evenly;
+
+        h1 {
+            @media screen and (max-width : 450px) {
+                font-size: 3rem;
+            }
+        }
+
+        @media screen and (max-width : 450px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        @media screen and (max-width: 1200px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        .app__home__info-left {
+            h1 {
+                @media screen and (min-width: 1200px) {
+                    font-size: 4.5rem;
+                    span {
+                        font-size: 6rem;
+                    }
+                }
+                @media screen and (max-width: 300px) {
+                    font-size: 1.5rem;
+                }
+                span {
+                    @media screen and (max-width: 300px) {
+                        font-size: 2rem;
+                    }
+                }
+            }
+        }
+        .app__home-profile {
+            img {
+
+                @media screen and (min-width: 1200px) {
+                    width: 30rem;
+                    height: 38rem;
+                    object-fit: contain ;
+                }
+            }
+        }
+        .app__home__typing-container {
+            
+            margin-top: 2rem;
+            width: 29rem;
+            right: 0;
+            padding: 1rem;
+            border: 5px solid #03a9f4;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 1.5rem;
+            .app__home-typing {
+                
+                font-size: 2rem;
+                font-family: monospace;
+                color: var(--lightGray-color);
+                white-space: nowrap;
+                border-right: 4px solid;
+                width: 22ch;
+                animation: typing 3s steps(22), blink .5s infinite step-end alternate;
+                overflow: hidden ;
+                
+                @media screen and (max-width : 450px) {
+                    font-size: 20px;
+                }
+                @media screen and (max-width: 300px) {
+                    font-size: 16px;
+                }
+                @media screen and (min-width: 1200px) {
+                    font-size: 2rem;
+                }
+            }
+            @keyframes typing {
+                from {width: 0}
+            }
+            @keyframes blink {
+                50% {border: transparent;}
+            }
+           
+            @media screen and (max-width : 450px) {
+                width: 100%;
+            }
+            @media screen and (max-width: 300px) {
+                width: 16rem;
+            }
+            @media screen and (min-width: 900px) {
+                width: 28rem;
+            }
+            @media screen and (min-width: 1200px) {
+                width:100%;
+            }
+        }
+        .app__home-profile {        
+            margin: 0 auto;
+            img {
+                @media screen and (max-width : 450px) {
+                width: 25rem;
+                }
+                @media screen and (max-width: 900px) {
+                    width: 100%;
+                }
+        }
+        
+        }
+        @media screen and (min-width: 900px) {
+            gap: 2rem;
+        }
+        @media screen and (max-width: 900px) {
+            flex-direction: column;
+            align-items: center;
+        }
+        @media screen and (min-width: 1200px) {
+            display: flex;
+            justify-self: center;
+            align-items: center;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+    }
+    
+}
+.app__home-hero {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    margin: 2rem 0;
+    font-size: 2rem;
+    width: 30rem;
+    color: var(--primary-color);
+    span {
+        color: var(--secondary-color)
+    }
+
+    
+    @media screen and (max-width : 450px) {
+        font-size: 1rem;
+        width: 100%;
+    }
+    @media screen and (max-width: 900px) {
+        font-size: 1.5rem;
+        
+    }
+    
+}
