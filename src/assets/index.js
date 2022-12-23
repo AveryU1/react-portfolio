@@ -28,6 +28,11 @@ import closeAnimated from "./closeAnimated.png";
 import cssFile from "./cssFile.png";
 import htmlFile from "./htmlFile.png";
 import javascriptFile from "./javascriptFile.png";
+import home from "./home.png";
+import user from "./user.png";
+import project from "./project.png";
+import skill from "./skill.png";
+import contact from "./contact.png";
 
 export {
   close,
@@ -60,4 +65,9 @@ export {
   cssFile,
   htmlFile,
   javascriptFile,
+  home,
+  user,
+  project,
+  skill,
+  contact,
 };

@@ -1,3 +1,12 @@
+.app__navbar-container {
+    @media screen and (min-width: 900px) {
+        display: flex;
+        width: min(90%, 1280px);
+        justify-content: center;
+        margin: 0 auto;
+        height: 6rem;
+    }
+}
 .app__navbar {
     display: flex;
     width: 100%;
@@ -9,6 +18,10 @@
     backdrop-filter: blur(4px);
     -webkit-backdrop-filter: blur(4px);
     z-index: 2;
+    @media screen and (min-width: 900px) {
+        width: min(90%, 1280px);
+        padding: 1rem 0;
+    }
 }
 .app__navbar-logo {
     display: flex;
@@ -22,7 +35,7 @@
 .app__navbar-links {
     flex: 1;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     
 
@@ -35,10 +48,15 @@
             color: var(--gray-color);
             text-transform: uppercase;
             transition: all 0.3s ease-in-out;
-
+            display: flex;
+            flex-direction: column-reverse;
+            
+            justify-content: center;
+            align-items: center;
             &:hover {
                 color: var(--secondary-color)
             }
+            
         }
     }
     @media screen and (max-width: 900px) {
@@ -71,22 +89,14 @@
         position: fixed;
         top: 0;
         right: 0;
-        bottom: 0;
+        left: 0;
         z-index: 5;
-
         padding: 3rem;
-
-        background: linear-gradient(
-    -168.39deg,
-    #ffffff -278.56%,
-    #6d6d6d -78.47%,
-    #11101d 91.61%
-  );
-        width: 80%;
-        height: 100vh;
+        background: var(--black-color);
+        width: 100%;
         display: flex;
         flex-direction: column;
-        justify-content: flex-end;
+       
         align-items: flex-end;
         box-shadow: 0 0 20px rgba(168, 168, 168, 0.15);
         i {
@@ -104,22 +114,29 @@
             height: 100%;
 
             display: flex;
-            flex-direction: column;
-            justify-content: flex-start;
-            align-items: flex-start;
+            flex-wrap: wrap;
+           justify-content: center;
 
             li {
-                margin-top: 2rem;
-
+                margin: 1rem;
+                width: 2rem;
                 a {
                     font-weight: 500;
+                    font-size: .8rem;
                     text-decoration: none;
                     color: var(--gray-color);
                     text-transform: uppercase;
                     transition: all 0.3s ease-in-out;
-        
+                    
                     &:hover {
                         color: var(--secondary-color)
+                    }
+                    img {
+                        margin-bottom: 5px;
+                        
+                            filter: invert(55%) sepia(71%) saturate(3255%) hue-rotate(166deg) brightness(98%) contrast(98%);
+                            width: 25px;
+                        
                     }
                 }
             }

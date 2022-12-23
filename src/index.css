@@ -17,6 +17,9 @@
   scroll-behavior: smooth;
   scroll-padding-top: 6rem;
 }
+body {
+  background: #00040f;
+}
 .text-gradient {
   background: radial-gradient(
     64.18% 64.18% at 71.16% 35.69%,
@@ -33,5 +36,9 @@
   text-fill-color: transparent;
 }
 .bg-black-gradient {
-  background: #00040f;
+}
+.app__flex {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }

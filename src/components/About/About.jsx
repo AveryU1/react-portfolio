@@ -35,9 +35,7 @@ const About = () => {
               molestias facere voluptate optio odit quae quaerat consectetur
               exercitationem tenetur deleniti ullam, expedita ut. Lorem ipsum
               dolor sit amet consectetur adipisicing elit. Quod quos est ratione
-              molestias distinctio? Asperiores perspiciatis incidunt aliquid,
-              accusamus vero nostrum reprehenderit vel vitae veritatis illum
-              quos deserunt tenetur hic.
+              molestias distinctio
             </p>
           </article>
           <motion.div>

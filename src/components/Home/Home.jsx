@@ -18,7 +18,7 @@ const Home = () => {
             </h1>
           </motion.div>
           <div className="app__home__typing-container">
-            <h1 className="app__home-typing">Frontend Web Developer</h1>
+            <h2 className="app__home-typing">Frontend Web Developer</h2>
           </div>
         </div>
 
