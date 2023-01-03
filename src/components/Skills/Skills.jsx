@@ -12,6 +12,7 @@ const Skills = () => {
             <motion.div
               whileInView={{ opacity: [0, 1] }}
               whileHover={{ scale: 1.1 }}
+              key={index}
             >
               <img src={item.imgUrl} alt="item" />
               <h4>{item.title}</h4>

@@ -16,7 +16,7 @@ const About = () => {
     },
     {
       title: "Web Design",
-      description: "Web apps and websites than look great.",
+      description: "Web apps and websites that look great.",
       imgUrl: about02,
     },
   ];
@@ -31,14 +31,24 @@ const About = () => {
           <article>
             <h3>About me</h3>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-              molestias facere voluptate optio odit quae quaerat consectetur
-              exercitationem tenetur deleniti ullam, expedita ut. Lorem ipsum
-              dolor sit amet consectetur adipisicing elit. Quod quos est ratione
-              molestias distinctio
+              Since I was a kid I liked computers but it wasn't until I was 20
+              that I decided I wanted to be a software developer. I would like a
+              job where I gain experience and have a good work environment to
+              better develop my skills. I love solving problems and I'm good at
+              working in a team. In my spare time I like to play videogames,
+              watch movies and anime :)
             </p>
+            <div className="app__about-curriculum">
+              <a
+                href="https://drive.google.com/file/d/180AreA5s9oB8dbf4JlBdWuJY-lJQ9ujM/view?usp=sharing"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button>View CV</button>
+              </a>
+            </div>
           </article>
-          <motion.div>
+          <motion.div className="app__about__image">
             <img src={space} alt="programming" />
           </motion.div>
         </div>

@@ -5,16 +5,17 @@ import {
   react,
   sass,
   framerMotion,
-  nodeJS,
   github,
   about01,
   about02,
   about03,
+  modernBank,
   home,
   user,
   project,
   skill,
   contact,
+  portfolio,
 } from "../assets";
 export const navLinks = [
   { id: "home", title: "Home", imgUrl: home },
@@ -25,27 +26,38 @@ export const navLinks = [
 ];
 
 export const projects = [
+  // {
+  //   tag: "Web Apps",
+  //   title: "Web Apps",
+  //   imgUrl: about01,
+  //   link: "",
+  //   description: "description",
+  // },
   {
-    tag: "Web Apps",
-    title: "Web Apps",
-    imgUrl: about01,
-    link: "",
-    description: "description",
+    tag: "UI/UX",
+    title: "Modern Bank",
+    imgUrl: modernBank,
+    link: "https://criss-modern-bank.netlify.app",
+    github: "https://github.com/AveryU1/Modern-Bank",
+    description:
+      "Modern responsive website made with reactJS and tailwind, making use of best practices.",
   },
   {
     tag: "UI/UX",
-    title: "UI/UX",
-    imgUrl: about02,
-    link: "",
-    description: "description",
+    title: "Portfolio",
+    imgUrl: portfolio,
+    link: "https://crissm-portfolio.netlify.app",
+    github: "https://github.com/AveryU1/react-portfolio",
+    description:
+      "Personal website made with ReactJS and FramerMotion, doing good practices such as folder structure.",
   },
-  {
-    tag: "React Js",
-    title: "React JS",
-    imgUrl: about03,
-    link: "",
-    description: "description",
-  },
+  // {
+  //   tag: "React Js",
+  //   title: "React JS",
+  //   imgUrl: about03,
+  //   link: "",
+  //   description: "description",
+  // },
 ];
 
 export const skills = [
@@ -55,6 +67,5 @@ export const skills = [
   { title: "React", imgUrl: react },
   { title: "Sass", imgUrl: sass },
   { title: "Framer Motion", imgUrl: framerMotion },
-  { title: "NodeJS", imgUrl: nodeJS },
   { title: "Github", imgUrl: github },
 ];

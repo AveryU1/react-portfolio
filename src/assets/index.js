@@ -1,6 +1,6 @@
 import close from "./close.svg";
 import css from "./css.png";
-import cv from "./cv.svg";
+import cv from "./cv.png";
 import html from "./html.png";
 import javascript from "./javascript.png";
 import linkedin from "./linkedin.svg";
@@ -14,7 +14,7 @@ import profile from "./profile.png";
 import about01 from "./about01.png";
 import about02 from "./about02.png";
 import about03 from "./about03.png";
-import programming from "./programming.jpg";
+import portfolio from "./portfolio.png";
 import space from "./space.svg";
 import view from "./view.png";
 import hide from "./hide.png";
@@ -25,14 +25,15 @@ import github from "./github.png";
 import triangle from "./triangle.png";
 import square from "./square.png";
 import closeAnimated from "./closeAnimated.png";
-import cssFile from "./cssFile.png";
-import htmlFile from "./htmlFile.png";
-import javascriptFile from "./javascriptFile.png";
+import modernBank from "./modern-bank.jpg";
 import home from "./home.png";
 import user from "./user.png";
 import project from "./project.png";
 import skill from "./skill.png";
 import contact from "./contact.png";
+import phone from "./phone.png";
+import email from "./email.png";
+import avatar from "./avatar.png";
 
 export {
   close,
@@ -51,7 +52,6 @@ export {
   about01,
   about02,
   about03,
-  programming,
   space,
   view,
   hide,
@@ -62,12 +62,14 @@ export {
   triangle,
   square,
   closeAnimated,
-  cssFile,
-  htmlFile,
-  javascriptFile,
   home,
   user,
   project,
   skill,
   contact,
+  phone,
+  email,
+  avatar,
+  modernBank,
+  portfolio,
 };

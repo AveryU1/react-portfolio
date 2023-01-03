@@ -6,7 +6,7 @@ import { logo } from "../../assets";
 
 const Navbar = () => {
   const [toggle, setToggle] = useState(false);
-  const [activeLink, setActiveLink] = useState("");
+
   return (
     <div className="app__navbar-container">
       <nav className="app__navbar">

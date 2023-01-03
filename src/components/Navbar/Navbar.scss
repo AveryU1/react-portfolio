@@ -54,7 +54,7 @@
             justify-content: center;
             align-items: center;
             &:hover {
-                color: var(--secondary-color)
+                color: var(--secondary-color);
             }
             
         }
@@ -63,6 +63,7 @@
         display: none;
     }
 }
+
 
 .app__navbar-menu {
     width: 35px;

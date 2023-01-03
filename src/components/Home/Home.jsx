@@ -1,7 +1,7 @@
 import React from "react";
 import "./Home.scss";
 import { motion } from "framer-motion";
-import { profile, htmlFile, cssFile, javascriptFile } from "../../assets";
+import { avatar } from "../../assets";
 const Home = () => {
   return (
     <div id="home" className="app__home">
@@ -27,7 +27,7 @@ const Home = () => {
           transition={{ duration: 1, delayChildren: 1 }}
           className="app__home-profile"
         >
-          <img src={profile} alt="profile" />
+          <img src={avatar} alt="profile" />
         </motion.div>
       </div>
     </div>

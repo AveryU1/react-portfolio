@@ -1,4 +1,3 @@
-import { useState } from "react";
 import { motion, useScroll, useSpring } from "framer-motion";
 import "./App.scss";
 import { Navbar, Home, About, Projects, Skills, Contact } from "./components";
