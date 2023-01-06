@@ -34,6 +34,7 @@ import contact from "./contact.png";
 import phone from "./phone.png";
 import email from "./email.png";
 import avatar from "./avatar.png";
+import ecommerce from "./ecommerce.jpg";
 
 export {
   close,
@@ -72,4 +73,5 @@ export {
   avatar,
   modernBank,
   portfolio,
+  ecommerce,
 };

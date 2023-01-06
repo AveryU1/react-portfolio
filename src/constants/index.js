@@ -16,6 +16,7 @@ import {
   skill,
   contact,
   portfolio,
+  ecommerce,
 } from "../assets";
 export const navLinks = [
   { id: "home", title: "Home", imgUrl: home },
@@ -51,13 +52,15 @@ export const projects = [
     description:
       "Personal website made with ReactJS and FramerMotion, doing good practices such as folder structure.",
   },
-  // {
-  //   tag: "React Js",
-  //   title: "React JS",
-  //   imgUrl: about03,
-  //   link: "",
-  //   description: "description",
-  // },
+  {
+    tag: "React Js",
+    title: "E-commerce",
+    imgUrl: ecommerce,
+    link: "https://headphonesecommerce.netlify.app",
+    github: "https://github.com/AveryU1/ecommerce",
+    description:
+      "Modern responsive full-Stack e-commerce made with react and Sanity.",
+  },
 ];
 
 export const skills = [
