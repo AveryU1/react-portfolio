@@ -56,15 +56,16 @@
         width: 100%;
         flex-direction: column;
         margin: 1rem 0;
-        cursor: pointer;
         padding: 1rem;
         border-radius: 0.5rem;
         background-color: var(--white-color);
         color: var(--black-color);
         transition: all ease 0.3s;
+        @media (hover:hover) {
 
-        &:hover {
-            box-shadow: 0 0 25px rgba(0,0,0,0.2);
+            &:hover {
+                box-shadow: 0 0 25px rgba(0,0,0,0.2);
+            }
         }
         @media screen and (min-width: 768px) {
             width: 20rem;
@@ -72,12 +73,31 @@
             margin-left: 1rem;
             margin-right: 1rem;
         }
+        .app__project-buttons {
+            display: flex;
+                gap: 1rem;
+                padding: .5rem;
+                
+                button {
+                    padding: .8rem 1rem;
+                    border-radius: 0.5rem;
+                    border-style: none;
+                    font-family: var(--font-base);
+                    font-weight: 600;
+                    color: var(--primary-color);
+                    background-color: var(--secondary-color);
+                    
+                }
+                @media (hover:hover) {
+    
+                    display: none;
+                }
+            }
     }
     
 }
 .app__project-img {
     width: 100%;
-    
     position: relative;
     img {
         width:100%;
@@ -87,30 +107,36 @@
     }
 }
 .app__project-hover {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.5);
-    border-radius: 0.5rem;
-    opacity: 0;
-    transition: all 0.3s ease;
-
-    div {
-        width: 50px;
-        height: 50px;
-        border-radius: 50%;
-        background-color: rgba(0, 0, 0, 0.5);
-        margin: 1rem;
-        cursor: pointer;
+    display: none;
+    @media (hover:hover) {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 0.5rem;
+        opacity: 0;
         transition: all 0.3s ease;
-        img {
-            filter: invert(100%) sepia(97%) saturate(9%) hue-rotate(105deg) brightness(104%) contrast(102%);
-            width: 50%;
-            height: 50%;
+    
+        div {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-color: rgba(0, 0, 0, 0.5);
+            margin: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            img {
+                filter: invert(100%) sepia(97%) saturate(9%) hue-rotate(105deg) brightness(104%) contrast(102%);
+                width: 50%;
+                height: 50%;
+            }
         }
     }
 }
@@ -126,7 +152,6 @@
 
     .app__project-tag {
         position: absolute;
-
         padding: 0.5rem 1rem;
         border-radius: 10px;
         background-color: var(--white-color);

@@ -61,7 +61,7 @@ const Projects = () => {
                     ease: "easeInOut",
                     staggerChildren: 0.5,
                   }}
-                  className="app__project-hover app__flex"
+                  className="app__project-hover "
                 >
                   <motion.div
                     whileInView={{ scale: [0, 1] }}
@@ -110,6 +110,14 @@ const Projects = () => {
                 <div className="app__project-tag app__flex">
                   <p>{project.tag}</p>
                 </div>
+              </div>
+              <div className="app__project-buttons">
+                <a href={project.link} target="_blank" rel="noreferrer">
+                  <button>View Demo</button>
+                </a>
+                <a href={project.github} target="_blank" rel="noreferrer">
+                  <button>View Code</button>
+                </a>
               </div>
             </div>
           ))}
