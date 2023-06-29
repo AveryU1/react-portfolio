@@ -6,7 +6,6 @@ import javascript from "./javascript.png";
 import linkedin from "./linkedin.svg";
 import menu from "./menu.svg";
 import react from "./react.png";
-import tailwind from "./tailwind.svg";
 import twitter from "./twitter.svg";
 import whatsapp from "./whatsapp.svg";
 import logo from "./logo.png";
