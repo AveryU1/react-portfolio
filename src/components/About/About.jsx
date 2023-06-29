@@ -40,7 +40,7 @@ const About = () => {
             </p>
             <div className="app__about-curriculum">
               <a
-                href="https://drive.google.com/file/d/180AreA5s9oB8dbf4JlBdWuJY-lJQ9ujM/view?usp=sharing"
+                href="https://docs.google.com/document/d/1JzbMD7LShXds72JzXwC8Bc3QnvQejj0T/edit?usp=sharing&ouid=117091404652050623627&rtpof=true&sd=true"
                 target="_blank"
                 rel="noreferrer"
               >
