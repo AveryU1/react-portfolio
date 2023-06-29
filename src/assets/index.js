@@ -35,6 +35,9 @@ import phone from "./phone.png";
 import email from "./email.png";
 import avatar from "./avatar.png";
 import ecommerce from "./ecommerce.jpg";
+import tailwind from "./tailwind-css-logo.png";
+import typescript from "./typescript.png";
+import trueBeautyLandingPage from "./true-beauty-landing-page.jpeg";
 
 export {
   close,
@@ -42,6 +45,7 @@ export {
   cv,
   html,
   javascript,
+  typescript,
   linkedin,
   menu,
   react,
@@ -58,6 +62,7 @@ export {
   hide,
   sass,
   framerMotion,
+  trueBeautyLandingPage,
   nodeJS,
   github,
   triangle,

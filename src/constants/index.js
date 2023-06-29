@@ -17,6 +17,9 @@ import {
   contact,
   portfolio,
   ecommerce,
+  tailwind,
+  typescript,
+  trueBeautyLandingPage,
 } from "../assets";
 export const navLinks = [
   { id: "home", title: "Home", imgUrl: home },
@@ -42,6 +45,15 @@ export const projects = [
     github: "https://github.com/AveryU1/Modern-Bank",
     description:
       "Modern responsive website made with reactJS and tailwind, making use of best practices.",
+  },
+  {
+    tag: "UI/UX",
+    title: "True Beauty",
+    imgUrl: trueBeautyLandingPage,
+    link: "https://true-beauty.vercel.app",
+    github: "https://github.com/AveryU1/True-Beauty",
+    description:
+      "Modern, responsive beauty product landing page built with Next.js, TailwindCSS, and cutting-edge technologies.",
   },
   {
     tag: "UI/UX",
@@ -71,4 +83,6 @@ export const skills = [
   { title: "Sass", imgUrl: sass },
   { title: "Framer Motion", imgUrl: framerMotion },
   { title: "Github", imgUrl: github },
+  { title: "TailwindCSS", imgUrl: tailwind },
+  { title: "Typescript", imgUrl: typescript },
 ];
