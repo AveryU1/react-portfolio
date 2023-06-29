@@ -21,8 +21,6 @@ import sass from "./sass.png";
 import framerMotion from "./framerMotion.svg";
 import nodeJS from "./nodeJS.png";
 import github from "./github.png";
-import triangle from "./triangle.png";
-import square from "./square.png";
 import closeAnimated from "./closeAnimated.png";
 import modernBank from "./modern-bank.jpg";
 import home from "./home.png";
@@ -64,8 +62,6 @@ export {
   trueBeautyLandingPage,
   nodeJS,
   github,
-  triangle,
-  square,
   closeAnimated,
   home,
   user,
