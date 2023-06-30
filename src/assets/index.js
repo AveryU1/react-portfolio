@@ -13,7 +13,7 @@ import profile from "./profile.png";
 import about01 from "./about01.png";
 import about02 from "./about02.png";
 import about03 from "./about03.png";
-import portfolio from "./portfolio.png";
+import portfolio from "./portfolio.jpeg";
 import space from "./space.svg";
 import view from "./view.png";
 import hide from "./hide.png";
@@ -35,6 +35,7 @@ import ecommerce from "./ecommerce.jpg";
 import tailwind from "./tailwind-css-logo.png";
 import typescript from "./typescript.png";
 import trueBeautyLandingPage from "./true-beauty-landing-page.jpeg";
+import nextJs from "./nextjs.png";
 
 export {
   close,
@@ -74,4 +75,5 @@ export {
   modernBank,
   portfolio,
   ecommerce,
+  nextJs,
 };

@@ -20,6 +20,7 @@ import {
   tailwind,
   typescript,
   trueBeautyLandingPage,
+  nextJs,
 } from "../assets";
 export const navLinks = [
   { id: "home", title: "Home", imgUrl: home },
@@ -76,13 +77,14 @@ export const projects = [
 ];
 
 export const skills = [
-  { title: "HTML", imgUrl: html },
-  { title: "CSS", imgUrl: css },
   { title: "JavaScript", imgUrl: javascript },
   { title: "React", imgUrl: react },
+  { title: "Typescript", imgUrl: typescript },
+  { title: "Next.JS", imgUrl: nextJs },
+  { title: "Github", imgUrl: github },
+  { title: "HTML", imgUrl: html },
+  { title: "CSS", imgUrl: css },
   { title: "Sass", imgUrl: sass },
   { title: "Framer Motion", imgUrl: framerMotion },
-  { title: "Github", imgUrl: github },
   { title: "TailwindCSS", imgUrl: tailwind },
-  { title: "Typescript", imgUrl: typescript },
 ];
